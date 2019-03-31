@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1537059136894" clover="3.2.0">
-  <project timestamp="1537059136894" name="All files">
-    <metrics statements="26" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="10" coveredmethods="9" elements="46" coveredelements="42" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1">
+<coverage generated="1554068585875" clover="3.2.0">
+  <project timestamp="1554068585875" name="All files">
+    <metrics statements="26" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="0" coveredmethods="0" elements="36" coveredelements="33" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1">
       <file name="VueFuse.vue" path="/Users/shayneosullivan/projects/vue-fuse/src/components/VueFuse.vue">
-        <metrics statements="26" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="10" coveredmethods="9"/>
+        <metrics statements="26" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="0" coveredmethods="0"/>
         <line num="5" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="97" count="2" type="stmt"/>
