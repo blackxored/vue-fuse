@@ -2,8 +2,8 @@ module.exports = {
   verbose: true,
   silent: false,
   collectCoverageFrom: [
-    "**src/components/*.{vue}",
-    "!**/node_modules/**"
+    '**src/components/*.{vue}',
+    '!**/node_modules/**'
   ],
   moduleFileExtensions: [
     'js',

@@ -4,7 +4,7 @@
   "description": "A Vue.js pluggin for fuzzy search library, Fuse.js",
   "author": "Shayne O'Sullivan <shayneosull@gmail.com>",
   "license": "MIT",
-  "main": "dist/vue-fuse.umd.min",
+  "main": "dist/vue-fuse.common.js",
   "private": false,
   "homepage": "https://github.com/shayneo/vue-fuse",
   "keywords": [
@@ -29,25 +29,20 @@
   },
   "dependencies": {
     "fuse.js": "^3.4.4",
-    "vue": "^2.5.17"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.4",
-    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.5.1",
     "@vue/cli-plugin-unit-jest": "^3.5.3",
     "@vue/cli-service": "^3.5.3",
-    "@vue/eslint-config-standard": "^3.0.3",
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
-    "tailwindcss": "^0.6.5",
-    "vue-template-compiler": "^2.5.17"
-  },
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ]
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "tailwindcss": "^0.6.6",
+    "vue-template-compiler": "^2.6.10"
+  }
 }

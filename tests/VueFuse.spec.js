@@ -5,7 +5,7 @@ describe('VueFuse', () => {
   let list = [
     { name: 'steve', id: 1 },
     { name: 'bill', id: 12 },
-    { name: 'ren', id : 123 },
+    { name: 'ren', id: 123 },
     { name: 'teemo', id: 1234 },
     { name: 'alex', id: 1000 }
   ]
@@ -33,7 +33,7 @@ describe('VueFuse', () => {
     wrapper.setData({
       value: 'teemo'
     })
-    expect(wrapper.vm.result).toEqual([{id: 1234, name: 'teemo'}])
+    expect(wrapper.vm.result).toEqual([{ id: 1234, name: 'teemo' }])
   })
 
   it('should have fired event for results', () => {
@@ -60,11 +60,11 @@ describe('VueFuse', () => {
       list: [{ name: 'mario' }]
     })
     expect(wrapper.vm.result).toEqual([])
-    
+
     wrapper.setData({
       value: 'mar'
     })
-    expect(wrapper.vm.result).toEqual([{name: 'mario'}])
+    expect(wrapper.vm.result).toEqual([{ name: 'mario' }])
   })
 
   it('should return ids if id prop is defined', () => {
@@ -75,7 +75,7 @@ describe('VueFuse', () => {
     wrapper.setData({
       value: 'alex'
     })
-    expect(wrapper.vm.result).toEqual([{id: 1000, name: 'alex'}])
+    expect(wrapper.vm.result).toEqual([{ id: 1000, name: 'alex' }])
   })
 
   it('should return results by search prop', () => {
@@ -84,7 +84,6 @@ describe('VueFuse', () => {
       id: ''
     })
     wrapper.vm.initFuse()
-    expect(wrapper.vm.result).toEqual([{id: 1000, name: 'alex'}])
+    expect(wrapper.vm.result).toEqual([{ id: 1000, name: 'alex' }])
   })
-
 })
